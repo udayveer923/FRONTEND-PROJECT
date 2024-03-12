@@ -1,0 +1,1050 @@
+/**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .body  */
+
+body{
+    height:6900px;
+    background-color:rgb(244, 245, 239);
+}
+
+
+
+
+
+
+
+
+
+
+/*  .main  */
+
+.main{
+    border-radius: 50%;
+    margin-top: 128px;
+    margin-left: 60px ;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .ul    */
+
+ul{ 
+    font-size:x-large;
+    display: block;
+    float:right;
+    border:1px solid none;
+    word-spacing: 10px;
+}
+
+ul li{
+    width: 200px;
+    float:left;
+    margin: 40px auto;
+    text-align: center;
+}
+    
+ul li a{ 
+    text-decoration: none;
+    color: darkgray;
+}
+
+ul li:hover{ 
+    background-color:darkcyan;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg1 .nav */
+
+.bg1 nav{
+    background-color:rgba(255, 255, 255, 0.421);
+    margin:auto;
+    word-spacing: 100px;
+    height:100px;
+    width:1400px;
+    left:200px;
+}
+
+.bg1 nav a{
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+    font-family:Impact;
+    text-decoration: none;
+}
+
+.bg1 nav a:hover{
+    color:rgba(14, 18, 17, 0.661);;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg1 .photobg   */
+
+.bg1 .photobg{
+    position:absolute;
+    left: 30px;
+    top: 150px;
+}
+
+.bg1 .photobg .mainphoto{
+    position: absolute;
+    top: -30px;
+    left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg1 .heading */
+
+.bg1 .heading{ 
+    position: absolute;
+    color:darkcyan;
+    font-size: 100px;
+    font-family: Impact;
+    top: 220px;
+    left: -250px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg1 .join_now */
+
+.bg1 .join_now{ 
+    position: absolute;
+    top: 470px;
+    left: 910px;
+}
+
+.bg1 .join_now .JN{
+    padding:10px 30px;
+    border-radius: 18px;
+    font-size: large;
+    background-color:darkcyan ;
+    color:rgb(255, 255, 255);
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg1 .cornerflower */
+
+.bg1 .cornerflower1{
+    position:absolute;
+    top: 600px;
+    height:100px;
+    width:500px;
+    margin-left: 1050px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg2    */
+
+.bg2 .bg-green{
+    position:absolute;
+    left: 0px;
+    top: 850px;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg2 .choose_class */
+
+.bg2 .choose_class{
+    position:absolute;
+    font-family: Impactf;
+    margin-top:800px;
+    margin-left: 500px;
+    color:white;
+    text-align: center;
+}
+
+.bg2 .choose_class1{
+    position:absolute;
+    font-size: 23px;
+    margin-top:900px;
+    margin-left: -20px;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg2 .flowerbg3 */
+
+.bg2 .flowerbg3_1{
+    position:absolute;
+    margin-top: 1000px;
+}
+
+.bg2 .flowerbg3_2{
+    position:absolute;
+    margin-left: 500px;
+    margin-top: 1000px;
+}
+
+.bg2 .flowerbg3_3{
+    position:absolute;
+    margin-left: 1000px;
+    margin-top: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg2 .yogapose_photo1 */
+
+.bg2 .yogapose_photo1{
+    position:absolute;
+    margin-left:-55px;
+    margin-top: 1000px;
+}
+
+.bg2 .yogapose_photo2{
+    position:absolute;
+    margin-left:440px;
+    margin-top: 1000px;
+}
+
+.bg2 .yogapose_photo3{
+    position:absolute;
+    margin-left:940px;
+    margin-top: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg2 .class */
+
+.bg2 .newbie_class{
+    position:absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    margin-top:1400px;
+    margin-left:-60px;
+    color:white;
+    text-align: center;
+}
+
+.bg2 .advanced_class{
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top:1400px;
+    margin-left:440px;
+    color:white;
+    text-align: center;
+}
+
+.bg2 .expert_class{
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top:1400px;
+    margin-left:950px;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg3 */
+
+.bg3 .bg3_blurphoto{
+    position:absolute;
+    left: 0px;
+    top: 1670px;
+}
+
+.bg3 .our_stats{
+    position:absolute;
+    font-family:Impact;
+    margin-top:1600px;
+    margin-left:520px;
+    color:darkcyan;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg3 .leafdesign */
+
+.bg3 .leafdesign1{
+    position:absolute;
+    top:0px;
+    left:180px;
+}
+.bg3 .leafdesign2{
+    position:absolute;
+    top:0px;
+    left:320px;
+}
+.bg3 .leafdesign3{
+    position:absolute;
+    top:80px;
+    left:140px;
+}
+.bg3 .leafdesign4{
+    position:absolute;
+    top:0px;
+    left:400px;
+}
+.bg3 .leafdesign5{
+    position:absolute;
+    top:135px;
+    left:-30px;
+}
+.bg3 .leafdesign6{
+    position:absolute;
+    top:290px;
+    left:-45px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg3 .lorem_text */
+
+.bg3 .lorem_text{
+    position:absolute;
+    color:darkcyan;
+    font-size: xx-large;
+    margin-top: 1680px;
+    text-align: center;
+    left:-70px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg3 .ring */
+
+.bg3 .ring_1{
+    position:absolute;
+    margin-top: 1920px;
+    left: 100px;
+}
+.bg3 .ring_2{
+    position:absolute;
+    margin-top: 1920px;
+    left: 550px;
+}
+.bg3 .ring_3{
+    position:absolute;
+    margin-top: 1920px;
+    left: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg3 .ring_text */
+
+.bg3 .ring_1_text{
+    position:absolute;
+    color:darkcyan;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2030px;
+    left:120px;
+}
+
+.bg3 .ring_2_text{
+    position:absolute;
+    color:darkcyan;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2030px;
+    left:570px;
+    
+}
+
+.bg3 .ring_3_text{
+    position:absolute;
+    color:darkcyan;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2030px;
+    left:1020px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg4  .bg4_background   */
+
+.bg4 .bg4_background{
+    position:absolute;
+    margin-top:2385px;
+    opacity:0.9;
+}
+
+.bg4 .bg4_background .bg4_yogaphoto5{
+    position:absolute;
+    top:0px ;
+    margin-left: 800px;
+}
+
+.bg4 .bg4_background .bestinstructor_text1{
+    position:absolute;
+    font-family: Impact;
+    color:white;
+    top:200px;
+    margin-left:90px;
+    text-align: left;
+}
+
+.bg4 .bg4_background .bestinstructor_text2{
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    top:350px;
+    margin-left:-150px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg4 .read_more  */
+
+.bg4 .read_more{ 
+    position: absolute;
+    top: 450px;
+    left: 90px;
+}
+
+.bg4 .read_more .RM{
+    padding:15px 55px;
+    font-size: large;
+    background-color:rgb(255, 255, 255) ;
+    color:darkcyan;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+/* .bg5 .bg5_background    */
+
+.bg5 .bg5_background{
+    position:absolute;
+    margin-top:3205px;
+    margin-left:0px;
+}
+
+.bg5_background .bg5_background_flower{
+    position:absolute;
+    top:0px;
+    margin-left:995px;
+    filter: brightness(150%);
+}
+
+.bg5_background .bg5_yogaphoto6{
+    position:absolute;
+    top:30px;
+    left:30px;
+    margin-left:0px;
+    filter: brightness(100%);
+    border:2px solid darkcyan;
+}
+
+.bg5_background .newexperience_text1{
+    position:absolute;
+    font-family: Impact;
+    font-size: 30px;
+    color:darkcyan;
+    top:190px;
+    margin-left:670px;
+    text-align: left;
+}
+
+.bg5_background .newexperience_text2{
+    position:absolute;
+    font-family: Impact;
+    font-size: 25px;
+    color:darkcyan;
+    top:350px;
+    margin-left:370px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* .bg5 .read_more  */
+
+.bg5 .read_more{ 
+    position: absolute;
+    top: 500px;
+    left: 675px;
+}
+
+.bg5 .read_more .RM{
+    padding:15px 55px;
+    font-size: large;
+    background-color:darkcyan ;
+    color:white;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .bg6_background   */
+
+.bg6 .bg6_background{
+    position:absolute;
+    margin-top:4025px;
+    opacity:0.9;
+}
+
+.bg6 .bg6_background .pricing_text1{
+    position:absolute;
+    margin-top:-775px;
+    margin-left: 620px;
+    color:white;
+    font-family:Impact;
+}
+
+.bg6 .bg6_background .pricingtext_lorem{
+    position:absolute;
+    font-size:x-large;
+    text-align: center;
+    color:white;
+    margin-top:-675px;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .bg6_background .photo    */
+
+.bg6 .bg6_background .photo1{
+    position:absolute;
+    margin-top: -550px;
+    margin-left: 100px;
+}
+
+.bg6 .bg6_background .photo2{
+    position:absolute;
+    margin-top: -550px;
+    margin-left: 572px;
+}
+
+.bg6 .bg6_background .photo3{
+    position:absolute;
+    margin-top: -550px;
+    margin-left: 1035px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .class_box    */
+
+.bg6 .newbie_class_box{
+    position:absolute;
+    color: darkcyan;
+    font-family: Impact;
+    font-size: 30px;
+    top:320px;
+    left:100px;
+}
+
+.bg6 .advance_class_box{
+    position:absolute;
+    color: darkcyan;
+    font-family: Impact;
+    font-size: 30px;
+    top:320px;
+    left:555px;
+}
+
+.bg6 .expert_class_box{
+    position:absolute;
+    color: darkcyan;
+    font-family: Impact;
+    font-size: 30px;
+    top:320px;
+    left:1000px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .newbie_class_box    */
+
+.bg6 .newbie_class_box{ 
+    position: absolute;
+    top: 303px;
+    left: 115px;
+}
+
+.bg6 .newbie_class .NC{
+    padding:20px 80px;
+    font-size: large;
+    background-color:darkcyan ;
+    color:white;
+    border:none;
+}
+
+.bg6 .bg6_background .newbie_class_box .bgcard_of_newbie{
+    position:absolute;
+    top:30px;
+    left:-255px
+}
+
+.bg6 .bg6_background .newbie_class_box .bgcard_of_newbie .newbie_class{
+    position:absolute;
+    top:250px;
+    left:290px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .advance_class_box    */
+
+.bg6 .advance_class_box{ 
+    position: absolute;
+    top: 303px;
+    left: 560px;
+}
+
+.bg6 .advance_class_box .AC{
+    padding:20px 80px;
+    font-size: large;
+    background-color:darkcyan ;
+    color:white;
+    border:none;
+}
+
+.bg6 .bg6_background .advance_class_box .bgcard_of_advance{
+    position:absolute;
+    top:30px;
+    left:-255px
+}
+
+.bg6 .bg6_background .advance_class_box .bgcard_of_advance .advance_class{
+    position:absolute;
+    top:250px;
+    left:290px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg6 .expert_class_box    */
+
+.bg6 .expert_class_box{ 
+    position: absolute;
+    top: 303px;
+    left: 1050px;
+}
+
+.bg6 .expert_class_box .EC{
+    padding:20px 80px;
+    font-size: large;
+    background-color:darkcyan ;
+    color:white;
+    border:none;
+}
+
+.bg6 .bg6_background .expert_class_box .bgcard_of_expert{
+    position:absolute;
+    top:30px;
+    left:-255px
+}
+
+.bg6 .bg6_background .expert_class_box .bgcard_of_expert .expert_class{
+    position:absolute;
+    top:250px;
+    left:290px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg7 .bg7_background .flower_background    */
+
+.bg7 .bg7_background{
+    margin-top: 4800px;
+}
+
+.bg7_background .flower_background{
+    position:absolute;
+    top:4975px;
+    left:520px;
+    opacity:3;
+}
+
+.bg7_background .flower_background .mainphoto{
+    position:absolute;
+    border-radius: 50%;
+    top:-62px;
+    left:7px
+}
+
+.bg7_background .flower_background .text1{
+    position:absolute;
+    color:darkcyan;
+    text-align: center;
+    top:410px;
+    left:-730px;
+}
+
+.bg7_background .flower_background .text2{
+    position:absolute;
+    color:darkcyan;
+    text-align: center;
+    top:550px;
+    left:-760px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg8 .bg8_background    */
+
+.bg8 .bg8_background .text1{
+    position:absolute;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top:-570px;
+    left:440px;
+}
+
+.bg8 .bg8_background .text2{
+    position:absolute;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin-top:-450px;
+    left:50px;
+}
+
+.bg8 .bg8_background .your_email{
+    position: absolute;
+    margin-top: 6000px;
+    top:100px;
+    margin-left:500px;
+}
+
+.bg8 .bg8_background .subscribe{
+    position: absolute;
+    margin-top: 6000px;
+    top:103px;
+    margin-left:770px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg9_backround   */
+
+.bg9 .bg9_background{
+    margin-top: -4px;
+}
+
+.bg9_background .text1_heading{
+    position:absolute;
+    text-align: center;
+    margin-top:-700px;
+    left:-580px;
+}
+
+.bg9_background .text1{
+    position:absolute;
+    text-align: left;
+    margin-top:-500px;
+    left:-210px;
+}
+
+.bg9_background .text2_heading{
+    position:absolute;
+    text-align: center;
+    margin-top:-700px;
+    left:10px;
+}
+
+.bg9_background .text2{
+    position:absolute;
+    text-align: left;
+    margin-top:-500px;
+    left:375px;
+}
+
+.bg9_background .text3_heading{
+    position:absolute;
+    text-align: center;
+    margin-top:-700px;
+    left:280px;
+}
+
+.bg9_background .text3{
+    position:absolute;
+    text-align: center;
+    margin-top:-500px;
+    left:680px;
+}
+
+.bg9_background .text4_heading{
+    position:absolute;
+    text-align: right;
+    margin-top:-700px;
+    left:600px;
+}
+
+.bg9_background .text4{
+    position:absolute;
+    text-align:left;
+    margin-top:-515px;
+    left:970px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  .bg9_backround .text4   */
+
+.bg9_background .text4_facebook{
+    position:absolute;
+    text-align:left;
+    margin-top:-508px;
+    left:1020px;
+}
+
+.bg9_background .text4_twitter{
+    position:absolute;
+    text-align:left;
+    margin-top:-440px;
+    left:1020px;
+}
+
+.bg9_background .text4_instagram{
+    position:absolute;
+    text-align:left;
+    margin-top:-375px;
+    left:1020px;
+}
+
+.bg9_background .text4_whatsapp{
+    position:absolute;
+    text-align:left;
+    margin-top:-310px;
+    left:1020px;
+}
